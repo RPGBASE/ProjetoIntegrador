@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body{
+  background-image: url("./imagens/RPG.png");
+  opacity: 1;
+  height: 800px;
+  width: 1280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  font-family: MedievalSharp, sans-serif;
+  
+}
+.menu{
+  display: flex;
+  padding: 10px;
+  width: 700px;
+  flex-direction: row;
+  justify-content: space-between;
+}

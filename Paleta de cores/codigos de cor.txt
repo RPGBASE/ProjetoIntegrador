@@ -1,0 +1,12 @@
+B02A93
+190F1A
+DCB99A
+761A35
+DA777B
+
+
+.color1 { #bf18a1 };
+.color2 { #f7c198 };
+.color3 { #4f0a63 };
+.color4 { #4e4184 };
+.color5 { #94aebd };

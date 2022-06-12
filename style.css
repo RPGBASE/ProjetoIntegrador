@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 body{
   background-image: url("./imagens/RPG.png");
-  opacity: 1;
+  background-position: ;
   height: 800px;
   width: 1280px;
   background-position: center;
@@ -10,10 +11,61 @@ body{
   font-family: MedievalSharp, sans-serif;
   
 }
+header{
+  text-align: center;
+}
+.titulo{
+  display: flex;
+  padding: 10px;
+  width: 1280px;
+  height: 45px;
+  flex-direction: row;
+  background-color: #4f0a63;
+  color: #f7c198;
+  text-align: center;
+  align-items: center;
+}
 .menu{
   display: flex;
   padding: 10px;
-  width: 700px;
+  width: 1280px;
+  height: 40px;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #4f0a63;
+  color: #f7c198;
+  text-align: center;
+  
+}
+.home{
+  padding: 5px;
+  background-color: #4f0a63;
+  border: 2px  solid #bf18a1 ;
+  width: 140px;
+  height: 15px;
+  text-align: center;
+}
+.criar{
+  padding: 5px;
+  background-color: #4f0a63;
+  border: 2px  solid #bf18a1 ;
+  width: 140px;
+  height: 15px;
+  text-align: center;
+}
+.entrar{
+  padding: 5px;
+  background-color: #4f0a63;
+  border: 2px  solid #bf18a1 ;
+  width: 140px;
+  height: 15px;
+  text-align: center;
+}
+.criarP{
+  padding: 5px;
+  background-color: #4f0a63;
+  border: 2px  solid #bf18a1 ;
+  width: 140px;
+  height: 15px;
+  text-align: center;
 }

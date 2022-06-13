@@ -2,17 +2,22 @@
 
 body{
   background-image: url("./imagens/RPG.png");
-  background-position: ;
   height: 800px;
-  width: 1280px;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 800px 800px;
+  background-size: 680px 680px;
   font-family: MedievalSharp, sans-serif;
   
 }
 header{
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .titulo{
   display: flex;

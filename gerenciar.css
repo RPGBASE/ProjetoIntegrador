@@ -1,0 +1,16 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.mesas{
+  width: 1200px;
+  padding: 10px;
+  text-align: center;
+}
+.personagens{
+  width: 1200px;
+  padding: 10px;
+  text-align: center;
+}

@@ -5,8 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./gurpscriacao.css">
 </head>
 <body>
+    <header>
+        <div class="titulo">
+            <h1>RPG Base</h1>
+        </div>
+        <div class="menu">
+            <div class="home">
+                <a href="./gerenciar.html">
+                    Inicio
+                </a>
+            </div>
+            <div class="criar">
+                <a href="./criacaomesa.html">
+                    Criar Mesa
+                </a>
+            </div>
+            <div class="entrar">
+                <a href="./ingressarmesa.html">
+                    Entrar em Mesa
+                </a>    
+            </div>
+            <div class="criarP">
+                <a href="./selecaosistema.html">
+                    Criar Personagem
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Gurps - Ficha de Personagem</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+                <label for="jogador">Jogador:</label>
+                <input type="text" name="jogador" id="jogador">
+                <label for="tPontos">Total de Pontos:</label>
+                <input type="text" name="tPontos" id="tPontos">
+            </p>
+            <p>
+                <label for="altura">Altura:</label>
+                <input type="text" name="altura" id="altura" size="3px">
+                <label for="peso">Peso:</label>
+                <input type="text" name="peso" id="peso" size="3px">
+                <label for="modTam">Modificador de Tamanho:</label>
+                <input type="text" name="modTam" id="modTam" size="3px">
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade" size="3px">
+                <label for="pontGastar">Pontos p/ Gastar</label>
+                <input type="text" name="pontGastar" id="pontGastar" size="3px">
+            </p>
+            <p>
+                <label for="aparencia">Aparência:</label>
+                <input type="text" name="aparencia" id="aparencia" size="93px">
+            </p>
+            <h3>PLANILHA DE PERSONAGEM</h3>
+            <div class="atributos">
+                <div class="fisicos">
+                   <div> 
+                        <label for="st">ST</label>
+                        <input type="text" name="st" id="st" size="3px">
+                    </div>
+                    <div>
+                        <label for="dx">DX</label>
+                        <input type="text" name="dx" id="dx" size="3px">
+                    </div>
+                    <div>
+                        <label for="iq">IQ</label>
+                        <input type="text" name="iq" id="iq" size="3px">
+                    </div>
+                    <div>
+                        <label for="ht">HT</label>
+                        <input type="text" name="ht" id="ht" size="3px">
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    </main>
     
 </body>
 </html>

@@ -1,0 +1,10 @@
+main{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+.fisicos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

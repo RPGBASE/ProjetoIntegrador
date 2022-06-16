@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gurps - Novo Personagem</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./gurpscriacao.css">
 </head>
@@ -64,27 +64,89 @@
                 <input type="text" name="aparencia" id="aparencia" size="93px">
             </p>
             <h3>PLANILHA DE PERSONAGEM</h3>
-            <div class="atributos">
-                <div class="fisicos">
-                   <div> 
-                        <label for="st">ST</label>
-                        <input type="text" name="st" id="st" size="3px">
+            <section>
+                <div class="atributos">
+                    <div class="fisicos">
+                       <div> 
+                            <label for="st">ST</label>
+                            <input type="text" name="st" id="st" size="3px">
+                        </div>
+                        <div>
+                            <label for="dx">DX</label>
+                            <input type="text" name="dx" id="dx" size="3px">
+                        </div>
+                        <div>
+                            <label for="iq">IQ</label>
+                            <input type="text" name="iq" id="iq" size="3px">
+                        </div>
+                        <div>
+                            <label for="ht">HT</label>
+                            <input type="text" name="ht" id="ht" size="3px">
+                        </div>
                     </div>
-                    <div>
-                        <label for="dx">DX</label>
-                        <input type="text" name="dx" id="dx" size="3px">
+                    <div class="resultante">
+                        <div>
+                            <label for="pv">PV</label>
+                            <input type="text" name="pv" id="pv" size="3px">
+                            <input type="text" name="pvA" id="pvA" size="3px">
+                        </div>
+                        <div>
+                            <label for="vont">Vont</label>
+                            <input type="text" name="vont" id="vont" size="3px">
+                        </div>
+                        <div>
+                            <label for="per">Per</label>
+                            <input type="text" name="per" id="per" size="3px">
+                        </div>
+                        <div>
+                            <label for="pf">PF</label>
+                            <input type="text" name="pf" id="pf" size="3px">
+                            <input type="text" name="pfA" id="pfA" size="3px">
+                        </div>
                     </div>
-                    <div>
-                        <label for="iq">IQ</label>
-                        <input type="text" name="iq" id="iq" size="3px">
-                    </div>
-                    <div>
-                        <label for="ht">HT</label>
-                        <input type="text" name="ht" id="ht" size="3px">
-                    </div>
-                    
                 </div>
-            </div>
+                <div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>
+                                     <label for="linguas">
+                                        Línguas
+                                     </label>
+                                </th>
+                                <th>
+                                     <label for="falada">
+                                        Falada
+                                     </label>
+                                </th>
+                                <th>
+                                    <label for="escrita">
+                                        Escrita
+                                    </label>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea name="linguas" id="linguas" cols="30" rows="10">
+                                        Escreva uma língua por linha
+                                    </textarea>
+                                </td>
+                                <td>
+                                    <textarea name="falada" id="falada" cols="30" rows="10">
+                                        Escreva o grau de fala da respectiva lingua da tabela ao lado(um por linha)...
+                                    </textarea>
+                                </td>
+                                <td>
+                                    <textarea name="escrita" id="escrita" cols="30" rows="10">
+                                        Escreva o grau de escrita da respectiva lingua da tabela ao lado(um por linha)...
+                                    </textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            
         </form>
     </main>
     

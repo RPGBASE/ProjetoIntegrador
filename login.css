@@ -2,43 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 body{
-  
-  background-position: 100%;
-  height: 800px;
-   width: 1280px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 800px 800px;
-  font-family: MedievalSharp, sans-serif;
-  background-blend-mode: color;
+   
+     font-family: MedievalSharp, sans-serif;
+     background-image: url("./imagens/RPG.png");
+     background-position: bottom;
+     background-repeat: no-repeat;
+     background-color: rgba(250, 248, 248, 0.5);
+     background-blend-mode: color;
+     background-size: 680px 680px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: black;
   
 }
 
 
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 00;
+	padding: 00;
 }
 
 
-main {
-    height: 100vh;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
-	align-items: center;
-    color:#4f0a63;	
-    
+  
+  .bt {
+    border: 0;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
 
-}
+  .bt:hover{
+   background-color:#f7c198   ;
 
-.button {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-   
-}
+
+  }
+  
 
 
 

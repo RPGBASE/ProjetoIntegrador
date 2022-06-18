@@ -5,71 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./login.css">
 </head>
 <body> 
-    <main>
+    
+    <div class="container">
+    <h1>Cadastro</h1>
+
+    <form action="cadastro.html" method="post">
+
+     <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome"  id="nome" >
+     </div>
         
-        <h1>Cadastro</h1>
+
+     <div class="form-group">
+        <label for="apelido">Apelido(Nick)</label>
+        <input type="text" name="apelido"  id="apelido" >
     </div>
-   <form >
-    
+
+
     <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email"  id="email" >
+    </div>
 
-                <div class="form-group">
 
-                    <label for="name">Nome</label>
+    <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" name="password"    id="password" >
+    </div>
 
-                    <input type="text" id="name" autocomplete="on">
 
-                </div>
-
-                <div class="form-group">
-
-                    <label for="apelido">Apelido(Nick)</label>
-
-                    <input type="apelido" id="apelido" autocomplete="on">
-
-                </div>
-
-                                
-    
-                        <div class="form-group">
-    
-                            <label for="email">Email</label>
-    
-                            <input type="email" id="email" autocomplete="on">
-    
-                        </div>
-    
-                        <div class="form-group">
-    
-                            <label for="password">Senha</label>
-    
-                            <input type="password" id="password" autocomplete="on">
-    
-                        </div>
-    
-                        <div class="form-group">
-    
-                            <label for="password">Confirmar Senha</label>
-    
-                            <input type="password" id="password" autocomplete="on">
-    
-                        </div>
-    
-                    <span class="button">
-                        <button type="submit"><a href="./index.html">Cadastrar</a></button>
-                        <button type="reset"><a href="./cadastro.html">Cancelar</a></button>
-                    </span>
-    </form>
-                    
-                
-    
-               
+    <div class="form-group">
+        <label for="password">Confirmar Senha</label>
+        <input type="password"  name="password"      id="password" >
 
     </div>
-    </main>
+    
+    <div>
+        <span class="button">
+        <button class="bt"   type="submit"><a href="./index.html">Cadastrar</a></button>
+    </span>
+
+    <span class="button">
+        <button class="bt"   type="reset"><a href="./cadastro.html">Cancelar</a></button>
+    </span>
+    </div>
+</div>
+    
+        
+      
     
     
 </body>

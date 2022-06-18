@@ -5,11 +5,11 @@ body{
   height: 800px;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 680px 680px;
+  background-size: 800px 800px;
   font-family: MedievalSharp, sans-serif;
-  background-color: rgba(250, 248, 248, 0.5);
+  background-color: rgba(250, 248, 248, 0.87);
   background-blend-mode: color;
-  
+  background-attachment: fixed;
 }
 header{
   display: flex;
@@ -42,7 +42,6 @@ header{
   background-color: #4f0a63;
   color: #f7c198;
   text-align: center;
-  
 }
 .home{
   padding: 5px;

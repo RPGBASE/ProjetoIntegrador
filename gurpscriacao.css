@@ -63,3 +63,25 @@ table{
 .capac th{
   text-align: center;
 }
+.mods{
+  display: flex;
+}
+.apa2{
+  width: 100px;
+} 
+.apa{
+  height: 41px;
+  width: 70px;
+}
+.modReac td{
+  text-align: justify;
+}
+.extras{
+  display: flex;
+}
+.botoes{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  padding-bottom: 50px;
+}

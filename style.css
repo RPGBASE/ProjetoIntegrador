@@ -42,6 +42,7 @@ header{
   background-color: #4f0a63;
   color: #f7c198;
   text-align: center;
+  position:sticky;
 }
 .home{
   padding: 5px;

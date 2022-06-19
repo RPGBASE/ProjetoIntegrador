@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Mesa</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./">
+    <link rel="stylesheet" href="./criacaomesa.css">
+    
 </head>
 <body>
 
@@ -39,7 +40,7 @@
 </header> 
 
 <main>
- <h1>Criar Mesa</h1>
+ <h2>Criar Mesa</h2>
  <form action="criar mesa" method="post">
     
     <div class="input-group">
@@ -56,10 +57,19 @@
         <label for="cenario">Cenário:</label>
         <textarea name="cenario" id="cenario" cols="30" rows="5"></textarea>
     </div>
+
     <div class="input-group">
-        
         <label for="numero de jogadores">Número de Jogadores:</label>
-        <input type="numero de jogadores" id="numero de jogadores" name="numero de jogadores">
+        <select name="numero de jogadores" id="numero de jogadores">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
     </div>
 
     <div class="input-group">

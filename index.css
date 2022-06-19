@@ -42,10 +42,22 @@ body{
   }
 
   .bt:hover{
-   background-color:#f7c198   ;
+   background-color:#94aebd   ;
 
 
   }
+
+
+
+  label{
+    width: 150px;
+    display: inline-block;
+    margin: 5px;
+    text-align: justify;
+    
+   
+  }
+  
   
 
 

@@ -5,39 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Mesa</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./criacaomesa.css">
     
 </head>
 <body>
-
-<header>
-    <div class="título">
-        <h1>RPG Base</h1>
-    </div>
-    <div class="menu">
-        <div class="home">
-            <a href="./criacaomesa.html">
-                Início
-            </a>
+    <header>
+        <div class="titulo">
+            <h1>RPG Base</h1>
         </div>
-             <div class="criar">
+        <div class="menu">
+            <div class="home">
+                <a href="./gerenciar.html">
+                    Inicio
+                </a>
+            </div>
+            <div class="criar">
                 <a href="./criacaomesa.html">
                     Criar Mesa
                 </a>
-             </div>
-             <div class="entrar">
+            </div>
+            <div class="entrar">
                 <a href="./ingressarmesa.html">
                     Entrar em Mesa
-                </a>
-             </div>
-             <div class="criarP">
+                </a>    
+            </div>
+            <div class="criarP">
                 <a href="./selecaosistema.html">
                     Criar Personagem
                 </a>
             </div>
-    </div>
-</header> 
+        </div>
+    </header>
 
 <main>
  <h2>Criar Mesa</h2>
@@ -45,22 +44,27 @@
     
     <div class="input-group">
         <label for="nome">Nome da Aventura:</label>
-        <input type="text" id="nome da aventura" name="nome da aventura">
+        <input type="text" id="nomeDaAventura" name="nomeDaAventura">
     </div>
     <div class="input-group">
 
         <label for="sistema">Sistema:</label>
-        
-        <input type="sistema" id="sistema" name="sistema">
+        <select name="sistema" id="sistema">
+            <option value="vampiro">Vampiro - A Máscara</option>
+            <option value="gurps">Gurps 4ª Edição</option>
+            <option value="dnd">Dungeons and Dragons</option>
+        </select>
     </div>
     <div class="input-group">
         <label for="cenario">Cenário:</label>
-        <textarea name="cenario" id="cenario" cols="30" rows="5"></textarea>
+        <textarea name="cenario" id="cenario" cols="30" rows="5">
+            Fale sobre o que espera os jogadores...
+        </textarea>
     </div>
 
     <div class="input-group">
-        <label for="numero de jogadores">Número de Jogadores:</label>
-        <select name="numero de jogadores" id="numero de jogadores">
+        <label for="numeroDeJogadores">Número de Jogadores:</label>
+        <select name="numeroDeJogadores" id="numeroDeJogadores">
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>

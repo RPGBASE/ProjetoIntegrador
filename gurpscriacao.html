@@ -38,7 +38,7 @@
     </header>
     <main>
         <h2>Gurps - Ficha de Personagem</h2>
-        <form action="#" method="post">
+        <form action="gerenciar.html" method="post">
             <p>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
@@ -127,17 +127,17 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <textarea name="linguas" id="linguas" cols="30" rows="10">
+                                    <textarea name="linguas" id="linguas" cols="25" rows="10">
                                         Escreva uma língua por linha
                                     </textarea>
                                 </td>
                                 <td>
-                                    <textarea name="falada" id="falada" cols="30" rows="10">
+                                    <textarea name="falada" id="falada" cols="25" rows="10">
                                         Escreva o grau de fala da respectiva lingua da tabela ao lado(um por linha)...
                                     </textarea>
                                 </td>
                                 <td>
-                                    <textarea name="escrita" id="escrita" cols="30" rows="10">
+                                    <textarea name="escrita" id="escrita" cols="25" rows="10">
                                         Escreva o grau de escrita da respectiva lingua da tabela ao lado(um por linha)...
                                     </textarea>
                                 </td>
@@ -462,31 +462,27 @@
                     <th>
                         <label for="nh">NH</label>
                     </th>
-                    <th colspan="3">
+                    <th>
                         <label for="nhr">NH Relativo</label>
                     </th>
                 </tr>
                 <tr>
                     <td>
-                        <textarea name="nomep" id="nomep" cols="53" rows="25">Nomes de pericias</textarea>
+                        <textarea name="nomep" id="nomep" cols="60" rows="25">Nomes de pericias</textarea>
                     </td>
                     <td>
-                        <textarea name="nh" id="" cols="3" rows="25">Digite os valores de NH correspondentes as perícias ao lado</textarea>
+                        <textarea name="nh" id="" cols="5" rows="25">Digite os valores de NH correspondentes as perícias ao lado</textarea>
                     </td>
                     <td>
-                        <textarea name="nhr" id="nhr" cols="3" rows="25">Digite os valores de NH relativo correspondentes aos pericias ao lado</textarea>
-                    </td>
-                    <td>
-                        <textarea name="nhr2" id="nhr2" cols="3" rows="25">Digite os valores de NH relativo correspondentes aos pericias ao lado</textarea>
-                    </td>
-                    <td>
-                        <textarea name="nhr3" id="nhr3" cols="3" rows="25">Digite os valores de NH relativo correspondentes aos pericias ao lado</textarea>
+                        <textarea name="nhr" id="nhr" cols="10" rows="25">Digite os valores de NH relativo correspondentes aos pericias ao lado</textarea>
                     </td>
                 </tr>
             </table>
            </section>
            <div class="botoes">
-            <input type="reset" value="Cancelar">
+            <a href="./gerenciar.html">
+                <input type="reset" value="Cancelar">
+            </a>            
             <input type="submit" value="Criar Personagem">
         </div>
         </form>

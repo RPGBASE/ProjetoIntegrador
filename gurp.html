@@ -3,10 +3,590 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Gurps - Novo Personagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./gurpscriacao.css">
 </head>
 <body>
+    <header>
+        <div class="titulo">
+            <h1>RPG Base</h1>
+        </div>
+        <div class="menu">
+            <div class="home">
+                <a href="./gerenciar.html">
+                    Inicio
+                </a>
+            </div>
+            <div class="criar">
+                <a href="./criacaomesa.html">
+                    Criar Mesa
+                </a>
+            </div>
+            <div class="entrar">
+                <a href="./ingressarmesa.html">
+                    Entrar em Mesa
+                </a>    
+            </div>
+            <div class="criarP">
+                <a href="./selecaosistema.html">
+                    Criar Personagem
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Gurps - Ficha de Personagem</h2>
+        <form action="gerenciar.html" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input disabled type="text" name="nome" id="nome" value="Fulano" >
+                <label for="jogador">Jogador:</label>
+                <input disabled type="text" name="jogador" id="jogador" value="Demetrius" >
+                <label for="tPontos">Total de Pontos:</label>
+                <input disabled type="text" name="tPontos" id="tPontos" value="300" >
+            </p>
+            <p>
+                <label for="altura">Altura:</label>
+                <input disabled type="text" name="altura" id="altura" size="3px" value="1,80" >
+                <label for="peso">Peso:</label>
+                <input disabled type="text" name="peso" id="peso" size="3px" value="80kg" >
+                <label for="modTam">Modificador de Tamanho:</label>
+                <input disabled type="text" name="modTam" id="modTam" size="3px" value="1" >
+                <label for="idade">Idade:</label>
+                <input disabled type="text" name="idade" id="idade" size="3px" value="30" >
+                <label for="pontGastar">Pontos p/ Gastar</label>
+                <input disabled type="text" name="pontGastar" id="pontGastar" size="3px" value="0" >
+            </p>
+            <p>
+                <label for="aparencia">Aparência:</label>
+                <input disabled type="text" name="aparencia" id="aparencia" size="93px" value="Olhos escuro, cabelo preto curto, calcasiano, corpo atletico" >
+            </p>
+            <h3>PLANILHA DE PERSONAGEM</h3>
+            <section class="inicio">
+                <div class="atributos">
+                    <div class="fisicos">
+                       <div> 
+                            <label for="st">ST</label>
+                            <input disabled type="text" name="st" id="st" size="1px" value="20" >
+                        </div>
+                        <div>
+                            <label for="dx">DX</label>
+                            <input disabled type="text" name="dx" id="dx" size="1px" value="15" >
+                        </div>
+                        <div>
+                            <label for="iq">IQ</label>
+                            <input disabled type="text" name="iq" id="iq" size="1px" value="20" >
+                        </div>
+                        <div>
+                            <label for="ht">HT</label>
+                            <input disabled type="text" name="ht" id="ht" size="1px" value="10" >
+                        </div>
+                    </div>
+                    <div class="resultante">
+                        <div>
+                            <label for="pv">PV</label>
+                            <input disabled type="text" name="pv" id="pv" size="1px" value="20" >
+                            <input disabled type="text" name="pvA" id="pvA" size="1px" >
+                        </div>
+                        <div>
+                            <label for="vont">Vont</label>
+                            <input disabled type="text" name="vont" id="vont" size="1px" value="20" >
+                        </div>
+                        <div>
+                            <label for="per">Per</label>
+                            <input disabled type="text" name="per" id="per" size="1px" value="20" >
+                        </div>
+                        <div>
+                            <label for="pf">PF</label>
+                            <input disabled type="text" name="pf" id="pf" size="1px" value="10" >
+                            <input disabled type="text" name="pfA" id="pfA" size="1px" >
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <table>
+                            <tr>
+                                <th>
+                                     <label for="linguas">
+                                        Línguas
+                                     </label>
+                                </th>
+                                <th>
+                                     <label for="falada">
+                                        Falada
+                                     </label>
+                                </th>
+                                <th>
+                                    <label for="escrita">
+                                        Escrita
+                                    </label>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea disabled  name="linguas" id="linguas" cols="30" rows="10" >
+                                        Português
+                                        Inglês 
+                                        Espanhol 
+                                    </textarea disabled>
+                                </td>
+                                <td>
+                                    <textarea disabled name="falada" id="falada" cols="30" rows="10" >
+                                        Fluente
+                                        Avançado
+                                        Intermediário
+                                    </textarea disabled>
+                                </td>
+                                <td>
+                                    <textarea disabled name="escrita" id="escrita" cols="30" rows="10" >
+                                        Fluente
+                                        Fluente
+                                        Avançado
+                                    </textarea disabled>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="rdent">
+                        <table class="rd">
+                            <tr>
+                                <th>
+                                    RD
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="cabeca">Cabeça:</label>
+                                    <input disabled type="text" name="cabeca" id="cabeca" size="14px" value="10">
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="tronco">Tronco:</label>
+                                    <input disabled type="text" name="tronco" id="tronco" size="14px" value="20">
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="bracos ">Braços:</label>
+                                    <input disabled type="text" name="bracos" id="bracos" size="14px" value="20">
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="maos">Mãos:</label>
+                                    <input disabled disabled type="text" name="maos" id="maos" size="14px" value="20">
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="pernas">Pernas:</label>
+                                    <input disabled type="text" name="pernas" id="pernas" size="14px" value="15">
+                                </td>                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="pes">Pés:</label>
+                                    <input disabled type="text" name="pes" id="pes" size="14px" value="15">
+                                </td>                                
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="nt">NT:</label>
+                                    <input disabled type="text" name="nt" id="nt" size="56px" value="10">
+                                    <input disabled type="text" name="nt2" id="nt2" size="2px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Familiaridades Culturais
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input disabled type="text" name="fc1" id="fc1" size="58px" value="chinesa">
+                                    <input disabled type="text" name="fc12" id="fc12" size="2px" value="1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input disabled type="text" name="fc2" id="fc2" size="58px" value="sueca">
+                                    <input disabled type="text" name="fc22" id="fc22" size="2px" value="2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input disabled type="text" name="fc3" id="fc3" size="58px" value="grega">
+                                    <input disabled type="text" name="fc32" id="fc32" size="2px" value="2">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+           <section class="cap">
+                <div class="sessaoe">
+                    <div class="capacidades">
+                        <div>
+                            <label for="basecarga">BASE DE CARGA (ST X ST)/10:</label>
+                            <input disabled type="text" name="basecarga" id="basecarga" size="4px" value="40">
+                            <label for="danogdp">DANO GdP:</label>
+                            <input disabled type="text" name="danogdp" id="danogdp" size="4px" value="2d-1">
+                            <label for="geb">GeB</label>
+                            <input disabled type="text" name="geb" id="geb" size="3.5px" value="3d+2">
+                        </div>
+                        <div> 
+                            <label for="velbasic">VEL. BÁSICA</label>
+                            <input disabled type="text" name="velbasic" id="velbasic" size="10px" value="6,25">
+                            <input disabled type="text" name="velbasic2" id="velbasic2" size="3px">
+                            <label for="deslbasic">DESL. BÁSICO</label>
+                            <input disabled type="text" name="deslbasic" id="deslibasic" size="10px" value="6,25">
+                            <input disabled type="text" name="deslbasic2" id="deslbasic2" size="3px">
+                        </div>
+                    </div>
+                    <div>
+                        <table class="capac">
+                            <tr>
+                                <th>BASE DE CARGA</th>
+                                <th></th>
+                                <th>DESLOCAMENTO</th>
+                                <th></th>
+                                <th>ESQUIVA</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="nenhuma">Nenhuma(0) = BC</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="nenhuma" id="nenhuma" size="3px" value="40">
+                                </td>
+                                <td>
+                                    <label for="dbx1">DB x 1</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="dbx1" id="dbx1" size="3px" value="6,25">
+                                </td>
+                                <td>
+                                    <label for="esquiva">Esquiva</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="esquiva" id="esquiva" size="2px" value="9,25">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="leve">Leve(1) = 2xBC</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="leve" id="leve" size="3px" value="80">
+                                </td>
+                                <td>
+                                    <label for="dbx08">DB x 0,8:</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="dbx08" id="dbx08" size="3px" value="5">
+                                </td>
+                                <td>
+                                    <label for="esquiva-1">Esquiva -1</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="esquiva-1" id="esquiva-1" size="2px" value="8,25">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="media">Média(2) = 3xBC: </label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="media" id="media" size="3px" value="120">
+                                </td>
+                                <td>
+                                    <label for="dbx06">DB x 0,6: </label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="dbx06" id="dbx06" size="3px" value="3,75">
+                                </td>
+                                <td>
+                                    <label for="esquiva-2">Esquiva -2</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="esquiva-2"id="esquiva-2" size="2px" value="7,25">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="pesada">Pesada(3) = 10xBC</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="pesada" id="pesada" size="3px" value="240">
+                                </td>
+                                <td>
+                                    <label for="dbx04">DB x 0,4: </label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="dbx04" id="dbx04" size="3px" value="2,5">
+                                </td>
+                                <td>
+                                    <label for="esquiva-3">Esquiva -3:</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="esquiva-3" id="esquiva-3" size="2px" value="6,25">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="mpesada">Mto Pesada(4) = 10xBC:</label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="mpesada" id="mpesada" size="3px" value="400">
+                                </td>
+                                <td>
+                                    <label for="dbx02">DB x 0,2: </label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="dbx02" id="dbx02" size="3px" value="1,25">
+                                </td>
+                                <td>
+                                    <label for="esquiva-4">Esquiva -4: </label>
+                                </td>
+                                <td>
+                                    <input disabled type="text" name="esquiva-4" id="esquiva-4" size="2px" value="5,25">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="mods">
+                    <table class="apaBloq">
+                        <tr>
+                            <th>
+                                <label for="aparar">APARAR</label> 
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input disabled type="text" name="aparar" id="aparar" class="apa" value="5">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input disabled type="text" name="aparar2" id="aparar2" class="apa2" value="5">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <label for="bloqueio">BLOQUEIO</label>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input disabled type="text" name="bloqueio" id="bloqueio" class="apa" value="5">
+                            </td>    
+                        </tr>
+                        <tr>
+                            <td>
+                                <input disabled type="text" name="bloqueio2" id="bloqueio2"class="apa2" value="5">
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="modReac">
+                        <tr>
+                            <th>
+                                <h3>
+                                    <label for="aparencia">Modificadores de Reação</label>
+                                </h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="aparencia">Aparência: </label>
+                                <input disabled type="text" name="aparencia" id="aparencia" size="48px" value="Elegante">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="status">Status: </label>
+                            <input disabled type="text" name="status" id="status" size="52px" value="Rico">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="reputacao">Reputação</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea disabled name="reputacao" id="reputacao" cols="59" rows="4">
+                                    Rico
+                                    Famoso
+                                    Inteligente
+                                </textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+           </section>
+           <section class="extras">
+            <table>
+                <tr>
+                    <th>
+                        <label for="vant">VANTAGENS E QUALIDADES</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea disabled name="vant" id="vant" cols="74" rows="12">
+                            A taque; A d ic io n a b l
+                            Cargaslitd/14 (Exporta/, -50%)
+                            CargasÚ tü /5
+                            Careers
+                            Ccvsulosde/Arma/ (veja/pá#. 308)
+                            Ve te c ta r (Evyhissõe^Eletromag^^séticay,
+                            V e te c ç ã o de/S in ais, +0%)
+                            fé/ V erdadeiras
+                            forw ia/A lter natiA/a/ (R o b ô centccuróide/,
+                            'veja/páfy. 308)
+                            Çarrcvs P on tu da^
+                            IA (n ão- rep ro g ra m áv el)
+                            l a c r a d o
+                            Mátqu in as
+                            Não- respiras
+                            O bscurecer 5 (R a d a r ; Efeito-de*Á rea/6, +300%;
+                            Oe/m^vo-, 50%; Estendido-,
+                            P ara/-R adar, +20%)
+                            P arcv-R adar (Arco-Estendido-, 360°, +125%;
+                            Penetrante^, +50%; Mira/, +20%)
+                            P a r a -R a d a r V roteg id o
+                            R á d io (OndcvsCurtay, +50%, V ídeo, +40%)
+                            R a stream en toA m p lia d o 1
+                            RefLejcoy env C om bate/
+                            ReM ^tência/O /Vano 53 (Sem/A rm adora/, -40%,
+                            E n rijecido-1, +20%)
+                            Resistências d P r e g ã o 2
+                            R o b ô C en ta a ró id es (veja/pátgs. 308)
+                            V isão H ipercspectrab
+                        </textarea >
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="desv">DESVANTAGENS E PECULIARIDADES</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea disabled name="desv" id="desv" cols="74" rows="12">
+                            V ieta/ R estrita/ (fissíon d v eis)
+                            VoutrinasReXigiososS'
+                            ElétricoE n torp ecid o
+                            frag iX id ad e/ (Explosivos)
+                            In g ê n u o
+                            Pacifism o- (N ão-podcs fe r ir in o cen tei)
+                            P ou ca/E m patio/
+                            R iquezas ( fa l id o )
+                            V era c id a d e'6
+                            V& Spretendido
+                            In c a p a ^ de/ flu tu a r
+                            M ente/aberta/
+                            P rocura/ n ovos sutras- sempres que/ possíveb
+Sempres procu ra/ d esa fio s
+                        </textarea >
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan="5">
+                        PERÍCIAS
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="nomep">Nome</label>
+                    </th>
+                    <th>
+                        <label for="nh">NH</label>
+                    </th>
+                    <th>
+                        <label for="nhr">NH Relativo</label>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea disabled name="nomep" id="nomep" cols="60" rows="25">
+                            ArmeirofN T9(A rmxMf p esa d a s)
+                            A taqu e/I n a t o ( fe ix e )
+                            Ataques I n a t o (Projétil/)
+                            Briga/
+                            Estratégia ( T erra)
+                            C on serto de/ Equipamento: EletrônicoN T9, (C om p u tad ores)
+                            M ecânica/N T9 (R o b ó tic a )
+                            M e d ita ç ã o
+                            M ontaria
+                            NavegasÇãoNT9 (T erra)
+                            O bservador A vançado T9
+                            O p er a ç ã o de C om p u tadores T9
+                            P ára - Q uedism o T9
+                            P er id a / A bran gen te (C iên cia/M ilitar)
+                        </textarea disabled>
+                    </td>
+                    <td>
+                        <textarea disabled name="nh" id="" cols="5" rows="25">
+                           16
+                           15
+                           15
+                           15
+                           18
+                           18
+                           18
+                           14
+                           15
+                           15
+                           15
+                           16
+                           15
+                           15
+                        </textarea disabled>
+                    </td>
+                    <td>
+                        <textarea disabled name="nhr" id="nhr" cols="10" rows="25">
+                            IQ+0
+                            VK+0
+                            VX.+0
+                            DX+0
+                            IQ+2
+                            IQ+2
+                            IQ+2
+                            Vont-2
+                            VX.+0 
+                            IQ-1
+                            IQ-1
+                            IQ+0
+                            DX
+                            IQ-1
+                            IQ+4
+                            IQ-1
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+           </section>
+           <div class="botoes">
+            <a href="./gerenciar.html">
+                <input  type="button" value="Voltar">
+            </a>
+            <a href="./gurpscriacao.html">
+                <input  type="button" value="Editar">
+            </a>
+        </div>
+        </form>
+    </main>
     
 </body>
 </html>

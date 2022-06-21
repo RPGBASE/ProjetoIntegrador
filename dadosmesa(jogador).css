@@ -28,13 +28,13 @@ main{
 }
 
 main form button {
-    width: 237px;
+    width: max-content;
     height: 33px;
     background: #4f0a63;
 
     color: #fff;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 15px;
 
     border: none;
     margin-top: 15px;

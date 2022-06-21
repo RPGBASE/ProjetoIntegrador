@@ -26,3 +26,24 @@ table, th, td{
 th{
   background-color: #94aebd;
 }
+
+.flex-container {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+     align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%; 
+    
+
+}
+
+.box{
+    float: left;
+    width: 250px; height: 150px;
+    margin: 10px 20px;
+    background-color: #94aebd; ;
+}
+
+

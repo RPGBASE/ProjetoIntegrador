@@ -28,14 +28,14 @@ th{
 }
 
 .flex-container {
-   display: flex;
-  flex-direction: row;
+  display: flex;
   justify-content: space-around;
-     align-items: center;
-    text-align: center;
-    align-content: center;
-    width: 100%; 
-    
+  width: 100%; 
+  text-align: center;
+align-content: flex-end;
+  
+  flex-direction: row;
+   
 
 }
 
@@ -46,4 +46,8 @@ th{
     background-color: #94aebd; ;
 }
 
+/* align-items: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: row;
 

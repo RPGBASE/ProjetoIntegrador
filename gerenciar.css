@@ -27,27 +27,3 @@ th{
   background-color: #94aebd;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-around;
-  width: 100%; 
-  text-align: center;
-align-content: flex-end;
-  
-  flex-direction: row;
-   
-
-}
-
-.box{
-    float: left;
-    width: 250px; height: 150px;
-    margin: 10px 20px;
-    background-color: #94aebd; ;
-}
-
-/* align-items: center;
-    text-align: center;
-    align-content: center;
-    flex-direction: row;
-

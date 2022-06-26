@@ -1,0 +1,48 @@
+main{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div{
+  padding: 2px;
+}
+.cabecalho{
+  display: flex;
+}
+.nomeP{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+#raca{
+  width: 130px;
+}
+.infoGerais{
+  display: flex;
+}
+.salvPeri{
+  text-align: left;
+}
+ul{
+  list-style-type:none;
+  list-style-position: initial;
+}
+.titulos{
+  text-align: center;
+  padding-top: 0px;
+}
+table{
+  padding-bottom: 10px;
+}
+.sobreviver{
+  display: flex;
+}
+.profiEquip{
+  display: flex;
+}

@@ -119,7 +119,7 @@ h5{
   font-size: 65px;
   margin-top: -111px;
   position: relative;
-  bottom: 880px;
+  bottom: 964px;
 
 }
 
@@ -128,7 +128,7 @@ h6{
   font-size: 65px;
   margin-top: -111px;
   position: relative;
-   bottom: 2500px;;  
+  bottom: 2669px;
 }
 
 section {
@@ -178,12 +178,14 @@ section > div{
 
 #col{
   display: flex;
-  flex-direction: row;
+flex-direction: row;
   justify-content: start;
   position: relative;
-  left: 1142px;
-}
+  left: 272px;
+top: 6px;
 
+
+}
 
 
  #col2{
@@ -192,7 +194,7 @@ section > div{
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 365px;
+  bottom: 368px;
 }
 
 
@@ -203,8 +205,8 @@ section > div{
   flex-direction: row;
   justify-content: end;
   position: relative;
-  bottom: 734px;
-  left: -1188px;
+  bottom: 748px;
+ left: -303px;
 }
 
 
@@ -213,8 +215,8 @@ section > div{
 font-size: 51px;
 margin-top: -111px;
 position: relative;
-bottom: 560px;
-left: -1036px;
+bottom: 549px;
+left: -565px;
 }
 
 #Atri2{
@@ -235,8 +237,8 @@ left: -1036px;
 font-size: 51px;
 margin-top: -111px;
 position: relative;
-bottom: 533px;
-right: -967px;
+bottom: 541px;
+right: -565px;
 }
 
 #a1{
@@ -244,12 +246,13 @@ right: -967px;
   text-align: start;
   font-size: 30px;
   flex-direction: row;
+ 
   justify-content: start;
   position: relative;
-  left: 1142px;
-  bottom: 519px;
-  
+  left: 281px;
+  bottom: 583px;
 }
+  
 
 #a2{
   display: flex;
@@ -258,7 +261,7 @@ right: -967px;
   flex-direction: row;
   justify-content: center;
   position: relative;
-  bottom: 795px;
+  bottom: 867px;
   
 }
   
@@ -269,9 +272,11 @@ right: -967px;
   flex-direction: row;
   justify-content: end;
   position: relative;
-  left: -1188px;
-  bottom: 1067px;
+  left: -288px;
+  bottom: 1147px;
 }
+
+
 
 
 #Hab1{
@@ -279,8 +284,8 @@ right: -967px;
   font-size: 42px;
   margin-top: -111px;
   position: relative;
-  bottom: 825px;
-left: -1040px;
+  bottom: 918px;
+  left: -606px;
 }
 
 
@@ -289,7 +294,8 @@ left: -1040px;
   font-size: 42px;
   margin-top: -111px;
   position: relative;
-  bottom: 805px;;
+  bottom: 893px;
+
 
 
 }
@@ -301,8 +307,8 @@ left: -1040px;
   font-size: 42px;
   margin-top: -111px;
   position: relative;
-  bottom: 780px;
-right: -987px;
+  bottom: 872px;
+right: -467px;
 }
 
 
@@ -313,8 +319,8 @@ right: -987px;
   flex-direction: row;
   justify-content: start;
   position: relative;
-  left: 1142px;
-  bottom: 788px;
+  left: 257px;
+bottom: 911px;
   
 }
 
@@ -326,7 +332,7 @@ right: -987px;
   flex-direction: row;
   justify-content: center;
   position: relative;
-  bottom: 1721px;
+  bottom: 1854px;
    }
 
 
@@ -337,40 +343,72 @@ right: -987px;
   flex-direction: row;
   justify-content: end;
   position: relative;
-  left: -1188px;
-  bottom: 2667px;
-   }
+  left: -298px;
+  bottom: 2794px;
 
-   #v1{
- 
+}
+
+#v1{
+  
+  text-align: start;
+  font-size: 50px;
+  
+  position: relative;
+  left: 207px;
+  bottom: 2813px;
+
+
+  }
+
+  #dis{
+    
+    font-size: 50px;
+    
+    position: relative;
+    left: 62px;
+    bottom: 57PX;
+
+  }
+  
+  #Ante{
     text-align: start;
     font-size: 50px;
-  
+    
     position: relative;
-    left: 1142px;
-    bottom: 2600px;
+    left: 62px;
+    bottom: 1PX;
+  }
+  
+  #virtudes{
+
+    text-align: end;
+    font-size: 50px;
+    
+    position: relative;
+    left: -232px;
+bottom: 82PX;
+  
+  }
 
 
-   }
-   
-   #v2{
+  #v2{
     text-align: center;
     font-size: 50px;
     
     position: relative;
-    bottom: 3526px;
+    bottom: 3727px;
   }
-
-
- 
-   #inp{
+  
+  
+  
+  #inp{
     position: relative;
     bottom: 45px;
     left: 263px;
-    height: 34px;
-    width: 29px;
-     
-     
+    height: 49px;
+    width: 19px
+    
+    
   }
   
   .inpv{
@@ -386,21 +424,21 @@ right: -987px;
     width: 231px;
     height: 33px;
     position: relative;
-    left: 2130px;
-  
+    left: 869px;
+    top: -57px;
 
 
    }
 
 
-   #inp2{
+   .inp2{
 
     position: relative;
-    bottom: 45px;
-    left: 263px;
-    height: 34px;
-    width: 29px;
-     
+    bottom: 103px;
+    left: 345px;
+    height: 49px;
+    width: 19px;
+  
 
    }
 
@@ -409,14 +447,74 @@ right: -987px;
     font-size: 50px;
     
     position: relative;
-    bottom: 3526px;
+    bottom: 4677px;
+    left: 139px;
   }
+  
 
   #inp3{
     
-    height: 34px;
-    width: 29px;
+    height: 49px;
+    width: 19px;
   }
 
+
+  #inp31{
+    height: 49px;
+    width: 19px;
+    
+    position: relative;
+    bottom: -58px;
+   left: 129px;
+
+
+  }
+  
+  #inp32{
+    height: 49px;
+    width: 19px;
+    position: relative;
+    bottom: -229px;
+   left: 168px;
+  
+
+  }
+
+  #inp33{
+    
+    height: 49px;
+    width: 19px;
+    position: relative;
+    bottom: -304px;
+    left: -117px;
+    
+  }
+
+  #consiecia{
+    text-align: end;
+    font-size: 50px;
+    position: relative;
+    bottom: -49px;
+    left: 134px;
+
+  }
+
+ #auto{
+  text-align: end;
+  font-size: 50px;
+  position: relative;
+  bottom: -219px;
+ left: 184px;
+}
+ 
+
+  #coragem{
+    text-align: end;
+font-size: 50px;
+position: relative;
+bottom: -294px;
+left: -106px;
+
+  }
     
    

@@ -4,13 +4,21 @@ main{
   flex-direction: column;
   align-items: center;
 }
+form{
+  border: 1px solid;
+}
 
 div{
   padding: 2px;
 }
 .cabecalho{
   display: flex;
+  justify-content: center;
 }
+ .ficha{
+  display: flex;
+}
+ 
 .nomeP{
   display: flex;
   flex-direction: column;
@@ -39,10 +47,96 @@ ul{
 }
 table{
   padding-bottom: 10px;
+  text-align: center;
+}
+.outrosValores{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caracCombate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caracCombate table {
+  width: 300px;
+  text-align: center;
+}
+.caracCombate table td{
+  width: 100px;
 }
 .sobreviver{
   display: flex;
 }
 .profiEquip{
   display: flex;
+  justify-content: center;
+}
+.botoes{
+  text-align: end;
+  padding: 10px;
+  margin: 5px;
+}
+#forca, #destreza, #constituicao, #inteligencia, #sabedoria, #carisma, #ca, #iniciativa, #deslocamento{
+  font-size:5ch;
+  width: 2ch;
+}
+.salvaguardas  label{
+  font-size: small;
+}
+.pericias label{
+  font-size: small;
+}
+
+.pdvm label{
+  font-size: small;
+}
+.pdv-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pdvt-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pdv {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.pdvt{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.pdv input{
+  font-size: 5ch;
+}
+.pdvt input{
+  font-size: 5ch;
+}
+.dv input{
+  font-size: 5ch;
+  width: 100px;
+}
+.tMorte{
+  text-align: right;
+}
+.sobreviver{
+  display: flex;
+  justify-content: center;
+}
+.sucessos, .falhas{
+  padding-bottom: 25px;
+  font-size: large;
+}
+.ataques table{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }

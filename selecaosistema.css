@@ -45,9 +45,15 @@ main{
     text-align: center;
    align-content: flex-end;
     flex-direction: row;
-
-
 }
 img {
     width: 300px;
+    }
+
+    table, th, td{
+      border: 1px solid #4e4184;
+      background-color: white;
+    }
+    th{
+      background-color: #94aebd;
     }

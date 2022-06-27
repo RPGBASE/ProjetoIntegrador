@@ -3,9 +3,9 @@
 body{
   background-image: url("./imagens/RPG.png"); 
   height: 800px;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 800px 800px;
+  background-size: 100vh 100vh ;
   font-family: MedievalSharp, sans-serif;
   background-color: rgba(250, 248, 248, 0.87);
   background-blend-mode: color;

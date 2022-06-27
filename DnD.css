@@ -88,6 +88,13 @@ table{
 .pericias label{
   font-size: small;
 }
+.salvaguardas, .pericias{
+  padding-top: 3px;
+  /* padding-bottom: 1px; */
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .pdvm label{
   font-size: small;

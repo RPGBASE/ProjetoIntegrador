@@ -19,4 +19,11 @@ h2{
   padding: 10px;
   text-align: center;
 }
+table, th, td{
+  border: 1px solid #4e4184;
+  background-color: white;
+}
+th{
+  background-color: #94aebd;
+}
 

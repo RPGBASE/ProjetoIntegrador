@@ -6,39 +6,33 @@
 
 main{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
   padding: 0 0 0 0;
-  padding-top: 0px;
+  padding-top: 30px;
   
 }
-
-form{ 
-  border: 1px solid;
-  
-} 
 
 .info1 {
   float: left;
   height: 100%;
-  padding: 160px;
   justify-content: space-around;
   padding-top: 0%;
-
-  
 }
 
 .info2 {
   float: right;
   height: 100%;
-  padding: 160px;
+  padding-left: 160px;
   justify-content: space-around;
   padding-top: 0%;
-  
 } 
 
+p{
+  font-weight: 1000;
+  font-size: large;
+}
 
 
 #sistema{
@@ -46,4 +40,8 @@ form{
 }
 #numeroDeJogadores{
   width: 40px;
+}
+
+.cenario, .regrasDaMesaC{
+  width: 300px;
 }

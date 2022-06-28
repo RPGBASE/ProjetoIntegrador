@@ -6,19 +6,14 @@
 
 main{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
   padding: 0 0 0 0;
-  padding-top: 0px;
-
+  padding-top: 100px;
 }
 
-form{ 
-  border: 1px solid;
-  
-} 
+
 
 .info1 {
   float: left;
@@ -46,4 +41,11 @@ form{
 }
 #numeroDeJogadores{
   width: 40px;
+}
+p{
+  font-weight: 1000;
+  font-size: large;
+}
+.cenario, .regrasDaMesaC{
+  width: 300px;
 }

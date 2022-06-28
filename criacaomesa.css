@@ -31,7 +31,6 @@ main form button {
     width: 237px;
     height: 33px;
     background: #4f0a63;
-
     color: #fff;
     font-weight: 500;
     font-size: 20px;
@@ -54,4 +53,18 @@ main form button:hover {
 }
 #numeroDeJogadores{
   width: 40px;
+}
+h2{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.corpo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vh;
+}
+
+div{
+  padding-bottom: 20px;
 }

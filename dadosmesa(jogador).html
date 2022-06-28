@@ -37,48 +37,54 @@
         </div>
     </header>
 <main>
-    <h2>Dados da Mesa(visão do jogador)</h2>
- <form action="./dadosmesa(jogador).html" method="post">
     
+ <form action="./dadosmesa(jogador).html" method="post">
+    <div class="info1">
     <div class="input-group">
         <label for="nome">Nome da Aventura:</label>
-        <input type="text" id="nomeDaAventura" name="nomeDaAventura">
+        <input disabled type="text" id="nomeDaAventura" name="nomeDaAventura" size="20px" value="Lorem ipsum">
     </div>
-    <div class="input-group">
 
+    <div class="input-group">
         <label for="sistema">Sistema:</label>
-        <select name="sistema" id="sistema">
-            <option value="vampiro">Vampiro - A Máscara</option>
-            <option value="gurps">Gurps 4ª Edição</option>
-            <option value="dnd">Dungeons and Dragons</option>
-        </select>
+        <input disabled type="text" name="sistema" id="sistema" value="Lorem ipsum">
     </div>
+
     <div class="input-group">
         <label for="cenario">Cenário:</label>
-        <textarea name="cenario" id="cenario" cols="30" rows="5">
-            Fale sobre o que espera os jogadores...
+        <textarea name="cenario" id="cenario" cols="30" rows="10">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+Aliquam unde laboriosam aliquid quidem nisi illum autem qui
+busdam hic nam ut impedit harum nobis, 
+debitis fuga assumenda, quam neque reiciendis deleniti.            
         </textarea>
     </div>
-
+</div>
+    <div class="info2">
     <div class="input-group">
         <label for="numeroDeJogadores">Número de Jogadores:</label>
-        <select name="numeroDeJogadores" id="numeroDeJogadores">
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
+            <input disabled type="text" name="sistema" id="sistema" value="5">    
+        
     </div>
 
     <div class="input-group">
         <label for="regrasDaMesa">Regras da Mesa:</label>
-        <textarea name="regrasDaMesa" id="regrasDaMesa" cols="30" rows="5">Digite aqui, caso exista, as regras especificas da mesa.</textarea>
+        <textarea name="regrasDaMesa" id="regrasDaMesa" cols="30" rows="10">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+Aliquam unde laboriosam aliquid quidem nisi illum autem qui
+busdam hic nam ut impedit harum nobis, 
+debitis fuga assumenda, quam neque reiciendis deleniti.   
+        </textarea>
     </div>
-
+    <div class="input-group">
+      <label for="personagens">Personagens</label>
+      <ul>
+      <li>Personagem 1</li>
+      <li>Personagem 2</li>
+      <li>Personagem 3</li>
+      <li>Personagem 4</li>
+    </ul>
+    </div>
     <span>
         <button type="submit">Voltar</button>
       </span>
@@ -90,6 +96,8 @@
     <span>
         <button type="submit">Entrar com Personagem Existente</button>
       </span>
+</div>
+    
  </form>
 </main>    
     

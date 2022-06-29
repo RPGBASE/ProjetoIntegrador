@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Gerenciar mesas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./gerenciar.css">
 </head>
 <body>
     <!-- copiar conteudo do header para cada uma das outras paginas com excessão do index.html e cadastro.html -->
@@ -20,7 +21,7 @@
                 </a>
             </div>
             <div class="criar">
-                <a href="./criaçãomesa.html">
+                <a href="./criacaomesa.html">
                     Criar Mesa
                 </a>
             </div>
@@ -30,14 +31,108 @@
                 </a>    
             </div>
             <div class="criarP">
-                <a href="./seleçãosistema.html">
+                <a href="./selecaosistema.html">
                     Criar Personagem
                 </a>
             </div>
         </div>
     </header>
     <main>
+        <h2>Mesas</h2>
+        <table class="mesas">
+            <tr>
+                <th>
+                    Código
+                </th>
+                <th>
+                    Mesa
+                </th>
+                <th>
+                    Narrador
+                </th>
+                <th>Sistema</th>
+            </tr>     
+            <tr>
+                <td>0001</td>
+                <td>
+                    <a href="./dadosmesa(mestre).html">Mesa Vampiro</a>
+                </td>
+                <td> Fulano</td>
+                <td> Vampiro - A Máscara</td>
+            </tr>
 
+            <tr>
+                <td>0002</td>
+                <td>
+                    <a href="./dadosmesa(jogador).html">Mesa D&D</a>
+                </td>
+                <td> Beltrano</td>
+                <td> Dungeons and Dragons</td>
+            </tr>
+        </table> 
+
+
+
+        <h2>Personagens</h2>      
+        <table class="personagens">
+            <tr>
+                <th>
+                    Código
+                </th>
+                <th>
+                    Personagem
+                </th>
+                <th>
+                    Mesa
+                </th>
+                <th>
+                    Narrador
+                </th>
+            </tr>     
+            <tr>
+                <td>
+                    0001
+                </td>
+                <td>
+                    <a href="./vampiro.html">Dagoberto</a>
+                </td>
+                <td>
+                    Mesa Vampiro
+                </td>
+                <td>
+                    Beltrano
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    0002
+                </td>
+                <td>
+                    <a href="./gurp.html">Fulano</a>
+                </td>
+                <td>
+                    Mesa Gurps
+                </td>
+                <td>
+                    Sicrano
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    0003
+                </td>
+                <td>
+                    <a href="./DnD.html">Bruenor</a>
+                </td>
+                <td>
+                    Mesa D&D
+                </td>
+                <td>
+                    Contador de histórias
+                </td>
+            </tr>
+        </table>
     </main>
     
 </body>

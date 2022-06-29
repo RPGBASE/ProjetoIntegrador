@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D - Tora Kiba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./DnD.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>RPG Base</h1>
+        </div>
+        <div class="menu">
+            <div class="home">
+                <a href="./gerenciar.html">
+                    Inicio
+                </a>
+            </div>
+            <div class="criar">
+                <a href="./criacaomesa.html">
+                    Criar Mesa
+                </a>
+            </div>
+            <div class="entrar">
+                <a href="./ingressarmesa.html">
+                    Entrar em Mesa
+                </a>    
+            </div>
+            <div class="criarP">
+                <a href="./selecaosistema.html">
+                    Criar Personagem
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2>Dungeons and Dragons - Ficha de Personagem</h2>
+        <form action="#" method="post">
+            <div class="cabecalho">
+                <div class="nomeP">
+                    <div>
+                        <input disabled type="text" name="nomeP" id="nomeP" size="45" value="Tora Kiba">
+                    </div>
+                    <div>
+                        <label for="nomeP">Nome do Personagem</label>
+                    </div>
+                </div>
+                <div class="informacaoP">
+                    <div  class="info">
+                        <div>
+                            <div>
+                                <select disabled name="classe" id="classe">
+                                    <option value="barbaro">Bárbaro</option>
+                                    <option value="bardo">Bardo</option>
+                                    <option value="bruxo">Bruxo</option>
+                                    <option value="clerigo">Clérigo</option>
+                                    <option value="druida">Druida</option>
+                                    <option value="feiticeiro">Feiticeiro</option>
+                                    <option value="guerreiro">Guerreiro</option>
+                                    <option value="ladino" selected>Ladino</option>
+                                    <option value="mago">Mago</option>
+                                    <option value="monge">Monge</option>
+                                    <option value="paladino">Paladino</option>
+                                    <option value="patrulheiro">Patrulheiro</option>
+                                </select disabled>
+                                <select disabled name="nivel" id="nivel">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="classe">Classe e Nível</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <input disabled type="text" name="antecedente" id="antecedente" value="Artista">
+                            </div>
+                            <div>
+                                <label for="antecedente">Antecedente</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <input disabled type="text" name="nomeJ" id="nomeJ" value="Bruenor">
+                            </div>
+                            <div>
+                                <label for="nomeJ">Nome do Jogador</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <div>
+                                <select disabled name="raca" id="raca">
+                                    <option value="anao">Anão</option>
+                                    <option value="elfo" selected>Elfo</option>
+                                    <option value="halfling">Halfling</option>
+                                    <option value="humano">Humano</option>
+                                    <option value="draconato">Draconato</option>
+                                    <option value="gnomo">Gnomo</option>
+                                    <option value="meioElfo">Meio-elfo</option>
+                                    <option value="meioOrc">Meio-orc</option>
+                                    <option value="tiefling">Tiefling</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="raca">Raça</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <input disabled type="text" name="alinhamento" id="alinhamento" value="Caotico Neutro">
+                            </div>
+                            <div>
+                                <label for="alinhamento">Alinhamento</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <input disabled type="text" name="exp" id="exp">
+                            </div>
+                            <div>
+                                <label for="exp">Pontos de Experiência</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ficha">
+                <div class="esquerdaCentro">
+                    <div class="infoGerais">
+                        <div class="atributos">
+                            <div class="atriForca">
+                                <div>
+                                    <label for="forca">Força</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="forca" id="forca" size="1" value="8">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modForca" id="modForca" size="2" value="-1">
+                                </div>
+                            </div>
+                            <div class="atriDestr">
+                                <div>
+                                    <label for="destreza">Destreza</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="destreza" id="destreza" size="1" value="19">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modDestreza" id="modDestreza" size="2" value="4">
+                                </div>
+                            </div>
+                            <div class="atriconst">
+                                <div>
+                                    <label for="constituicao">Constituição</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="constituicao" id="constituicao" size="1" value="10">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modConstituicao" id="modConstituicao" size="2" value="0">
+                                </div>
+                            </div>
+                            <div class="atriInt">
+                                <div>
+                                    <label for="inteligencia">Inteligência</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="inteligencia" id="inteligencia" size="1" value="10">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modInteligencia" id="modInteligencia" size="2" value="0">
+                                </div>
+                            </div>
+                            <div class="atriSab">
+                                <div>
+                                    <label for="sabedoria">Sabedoria</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="sabedoria" id="sabedoria" size="1" value="15">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modSabedoria" id="modSabedoria" size="2" value="2">
+                                </div>
+                            </div>
+                            <div class="atriCaris">
+                                <div>
+                                    <label for="carisma">Carisma</label>
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="carisma" id="carisma" size="1" value="14">
+                                </div>
+                                <div>
+                                    <input disabled type="text" name="modCarisma" id="modCarisma" size="2" value="2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="salvPeri">
+                            <div>
+                                <input disabled type="text" name="inspiracao" id="inspiracao" size="1" value="1">
+                                <label for="inspiracao">Inspiração</label>
+                            </div>
+                            <div>
+                                <input disabled type="text" name="proficiencia" id="proficiencia" size="1" value="+3">
+                                <label for="proficiencia">Bônus de Proficiência</label>
+                            </div>
+                            <div class="salvaguardas">
+                                <ul>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvForca" id="salvForca">
+                                        <input disabled type="text" name="salvForcaMod" id="salvForcaMod" size="1">
+                                        <label for="salvForca">Força</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvDestreza" id="salvDestreza" checked>
+                                        <input disabled type="text" name="salvDestrezaMod" id="salvDestrezaMod" size="1" value="3">
+                                        <label for="salvDestreza">Destreza</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvConstituicao" id="salvConstituicao">
+                                        <input disabled type="text" name="salvConstituicaoMod" id="salvConstituicaoMod" size="1">
+                                        <label for="salvConstituicao">Constituição</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvInteligencia" id="salvInteligencia" checked>
+                                        <input disabled type="text" name="salvInteligenciaMod" id="salvInteligenciaMod" size="1" value="3">
+                                        <label for="salvInteligencia">Inteligência</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvSabedoria" id="salvSabedoria">
+                                        <input disabled type="text" name="salvSabedoriaMod" id="salvSabedoriaMod" size="1">
+                                        <label for="salvSabedoria">Sabedoria</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="salvCarisma" id="salvCarisma">
+                                        <input disabled type="text" name="salvCarismaMod" id="salvCarismaMod" size="1">
+                                        <label for="salvCarisma">Carisma</label>
+                                    </li>
+                                </ul>
+                                <div class="titulos">
+                                    <h3>SALVAGUARDAS</h3>
+                                </div>
+                            </div>
+                            <div class="pericias">
+                                <ul>
+                                    <li>
+                                        <input disabled type="checkbox" name="acrobacia" id="acrobacia" checked>
+                                        <input disabled type="text" name="acrobaciaMod" id="acrobaciaMod" size="1" value="+7">
+                                        <label for="acrobacia">Acrobacia(Des)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="arcanismo" id="arcanismo">
+                                        <input disabled type="text" name="arcanismoMod" id="arcanismoMod" size="1">
+                                        <label for="arcanismo">Arcanismo(Int)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="atletismo" id="atletismo">
+                                        <input disabled type="text" name="atletismoMod" id="atletismoMod" size="1">
+                                        <label for="atletismo">Atletismo(For)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="atuacao" id="atuacao" checked>
+                                        <input disabled type="text" name="atuacaoMod" id="atuacaoMod" size="1" value="+5">
+                                        <label for="atuacao">Atuação(Car)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="enganacao" id="enganacao" checked>
+                                        <input disabled type="text" name="enganacaoMod" id="enganacaoMod" size="1" value="+5">
+                                        <label for="enganacao">Enganação(Car)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="furtividade" id="furtividade" checked>
+                                        <input disabled type="text" name="furtividadeMod" id="furtividadeMod" size="1" value="+10">
+                                        <label for="furtividade">Furtividade(Des)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="historia" id="historia">
+                                        <input disabled type="text" name="historiaMod" id="historiaMod" size="1">
+                                        <label for="historia">História(Int)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="intimidacao" id="intimidacao">
+                                        <input disabled type="text" name="intimidacaoMod" id="intimidacaoMod" size="1">
+                                        <label for="intimidacacao">Intimidação(Car)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="intuicao" id="intuicao">
+                                        <input disabled type="text" name="intuicaoMod" id="intuicaoMod" size="1">
+                                        <label for="intuicao">Intuição(Sab)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="investigacao" id="investigacao">
+                                        <input disabled type="text" name="investigacaoMod" id="investigacaoMod" size="1">
+                                        <label for="investigacao">Investigação(Int)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="lidarAnimais" id="lidarAnimais">
+                                        <input disabled type="text" name="lidarAnimaisMod" id="lidarAnimaisMod" size="1">
+                                        <label for="lidarAnimais">Lidar com Animais(Sab)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="medicina" id="medicina">
+                                        <input disabled type="text" name="medicinaMod" id="medicinaMod" size="1">
+                                        <label for="medicina">Medicina(Sab)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="natureza" id="natureza">
+                                        <input disabled type="text" name="naturezaMod" id="naturezaMod" size="1">
+                                        <label for="natureza">Natureza(Int)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="percepcao" id="percepcao" checked>
+                                        <input disabled type="text" name="percepcaoMod" id="percepcaoMod" size="1" value="+8">
+                                        <label for="percepcao">Percepção(Sab)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="persuasao" id="persuasao" checked>
+                                        <input disabled type="text" name="persuasaoMod" id="persuasaoMod" size="1" value="+5">
+                                        <label for="persuasao">Persuasão(Car)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="prestidigitacao" id="prestidigitacao" checked>
+                                        <input disabled type="text" name="prestidigitacaoMod" id="prestidigitacaoMod" size="1" value="+7">
+                                        <label for="prestidigitacao">Prestidigitação(Des)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="religiao" id="religiao">
+                                        <input disabled type="text" name="religiaoMod" id="religiaoMod" size="1">
+                                        <label for="religiao">Religião(Int)</label>
+                                    </li>
+                                    <li>
+                                        <input disabled type="checkbox" name="sobrevivencia" id="sobrevivencia">
+                                        <input disabled type="text" name="sobrevivenciaMod" id="sobrevivenciaMod" size="1">
+                                        <label for="sobrevivencia">Sobrevivência(Sab)</label>
+                                    </li>
+                                </ul>
+                                <div class="titulos">
+                                    <h3>PERÍCIAS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outrosValores">
+                            <div class="caracCombate">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <label for="ca">Classe de <br>
+                                                Armadura</label>
+                                        </th>
+                                        <th>
+                                            <label for="iniciativa">Iniciativa</label>
+                                        </th>
+                                        <th>
+                                            <label for="deslocamento">Deslocamento</label>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input disabled type="text" name="ca" id="ca" value="15">
+                                        </td>
+                                        <td>
+                                            <input disabled type="text" name="iniciativa" id="iniciativa" value="4">
+                                        </td>
+                                        <td>
+                                            <input disabled type="text" name="deslocamento" id="deslocamento" value="10,5">
+                                        </td>
+                                    </tr>    
+                                </table>
+                                <div>
+                                    <div class="pdvm">
+                                        <label for="pdvm">Pontons de Vida Máximos</label>
+                                        <input disabled type="text" name="pdvm" id="pdvm" size="2" value="32">
+                                    </div>
+                                    <div class="pdv-group">
+                                        <div class="pdv">
+                                            <input disabled type="text" name="pdv" id="pdv" size="6" value="32">
+                                        </div>
+                                        <div>
+                                            <label for="pdv">Pontos de Vida Atuais</label>
+                                        </div>
+                                    </div>
+                                    <div class="pdvt-group">
+                                        <div class="pdvt">
+                                            <input disabled type="text" name="pdvt" id="pdvt" size="6">
+                                        </div>
+                                        <div>
+                                            <label for="pdvt">Pontos de Vida Temporários</label>
+                                        </div>
+                                    </div>
+                                    <div class="sobreviver">
+                                        <div>
+                                            <div>
+                                                <label for="totalDV">Total</label>
+                                                <input disabled type="text" name="totalDV" id="totalDV" size="4" value="1">
+                                            </div>
+                                            <div class="dv">
+                                                <input disabled type="text" name="dv" id="dv" size="1" value="d8">
+                                            </div>
+                                            <div>
+                                                <label for="dv">Dado de Vida</label>
+                                            </div>
+                                        </div>
+                                        <div class="tMorte">
+                                            <div class="sucessos">
+                                                <label for="sucessMorte">Sucessos</label>
+                                                <input disabled type="checkbox" name="sucessMorte" id="sucessMorte" value="1">
+                                                <input disabled type="checkbox" name="sucessMorte" id="sucessMorte" value="2">
+                                                <input disabled type="checkbox" name="sucessMorte" id="sucessMorte" value="3">
+                                            </div>
+                                            <div class="falhas">
+                                                <label for="falhasMorte">Falhas</label>
+                                                <input disabled type="checkbox" name="falhasMorte" id="falhasMorte" value="1">
+                                                <input disabled type="checkbox" name="falhasMorte" id="falhasMorte" value="2">
+                                                <input disabled type="checkbox" name="falhasMorte" id="falhasMorte" value="3">
+                                            </div>
+                                            <div>
+                                                <label for="sucessMorte">Salvaguarda contra Morte</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ataques">
+                                        <table>
+                                            <tr>
+                                                <th>Nome</th>
+                                                <th>Bônus Ataque</th>
+                                                <th>Dano/Tipo</th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input disabled type="text" name="ataque1" id="ataque1" value="Wakizashi">
+                                                </td>
+                                                <td>
+                                                    <input disabled type="text" name="bonus1" id="bonus1" size="2" value="+7">
+                                                </td>
+                                                <td>
+                                                    <input disabled type="text" name="dano1" id="dano1" size="3" value="1d8+4">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            <td>
+                                                    <input disabled type="text" name="ataque2" id="ataque2" value="Arco Curto">
+                                            </td> 
+                                            <td>
+                                                    <input disabled type="text" name="bonus2" id="bonus2" size="2" value="+7">                                    
+                                            </td>
+                                            <td>
+                                                <input disabled type="text" name="dano2" id="dano2" size="3" value="1d6+4">
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input disabled type="text" name="ataque3" id="ataque3" value="Tantôs">
+                                            </td> 
+                                            <td>
+                                                    <input disabled type="text" name="bonus3" id="bonus3" size="2" value="+7">                                    
+                                            </td>
+                                            <td>
+                                                <input disabled type="text" name="dano3" id="dano3" size="3" value="1d4+4">
+                                            </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <textarea disabled name="conjuracao" id="conjuracao" cols="37" rows="10"></textarea >
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                            <th colspan="3">
+                                                <label for="conjuracao">Ataques & Conjuração</label>
+                                            </th> 
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="profiEquip">
+                        <div>
+                            <div>
+                                <input disabled type="text" name="sabPassiva" id="sabPassiva" size="2">
+                                <strong>
+                                    <label for="sabPassiva">Sabedoria Passiva(Percepção)</label>
+                                </strong>
+                            </div>
+                            <div>
+                                <div>
+                                    <textarea disabled name="idiomas" id="idiomas" cols="35" rows="10"></textarea >
+                                </div>
+                                <div>
+                                    <strong>
+                                        <label for="idiomas">Outras Proficiências & Idiomas</label>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="pc">PC</label>
+                                    </td>
+                                    <td>
+                                        <input disabled type="text" name="pc" id="pc">
+                                    </td>
+                                    <td rowspan="6">
+                                        <textarea disabled name="equipamento" id="equipamento" cols="20" rows="12">
+                                            Ferramentas de ladrão
+                                            Par de Tantôs(adagas)
+                                            Wakizashi(rapieira)
+                                            Arco curto
+                                            Pacote de Assaltante
+                                        </textarea >
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="pp">PP</label>
+                                    </td>
+                                    <td>
+                                        <input disabled type="text" name="pp" id="pp">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="pe">PE</label>
+                                    </td>
+                                    <td>
+                                        <input disabled type="text" name="pe" id="pe">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="po">PO</label>
+                                    </td>
+                                    <td>
+                                        <input disabled type="text" name="po" id="po" value="16">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="pl">Pl</label>
+                                    </td>
+                                    <td>
+                                        <input disabled type="text" name="pl" id="pl">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th colspan="3">
+                                        <label for="equipamento">Equipamento</label>
+                                    </th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="direita">
+                    <div>
+                        <div>
+                            <textarea disabled name="personalidade" id="personalidade" cols="30" rows="6"></textarea >
+                        </div>
+                        <div>
+                            <strong>
+                                <label for="personalidade">Traços de Personalidade</label>
+                            </strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <textarea disabled name="ideais" id="ideais" cols="30" rows="6"></textarea >
+                        </div>
+                        <div>
+                            <strong>
+                                <label for="ideais">Ideais</label>
+                            </strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <textarea disabled name="vinculos" id="vinculos" cols="30" rows="6"></textarea >
+                        </div>
+                        <div>
+                            <strong>
+                                <label for="vinculos">Vinculos</label>
+                            </strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <textarea disabled name="fraquezas" id="fraquezas" cols="30" rows="6"></textarea >
+                        </div>
+                        <div>
+                            <strong>
+                                <label for="fraquezas">Fraquezas</label>
+                            </strong>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <textarea disabled name="caracTalentos" id="caracTalentos" cols="30" rows="31">
+                                Ataque Furtivo
+                                Girias de Ladrão
+                                Esquiva Sobrenatural
+                                Assassinar
+                            </textarea >
+                        </div>
+                        <div>
+                            <strong>
+                                <label for="caracTalentos">Características e Talentos</label>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="botoes">
+                <button value="voltar" >
+                    <a href="./gerenciar.html">Voltar</a>                    
+                </button>
+                <button type="button">Selecionar Personagem</button>
+            </div>
+            
+        </form> 
+    </main>    
+</body>
+</html>

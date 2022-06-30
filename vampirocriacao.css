@@ -1,0 +1,602 @@
+main{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 120px;
+  margin-top: 76px;
+}
+
+h3{
+  text-align: center;
+  font-size: 32px;
+  margin-top: -111px;
+}
+
+h4{
+  text-align: center;
+  font-size: 65px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 630px;
+}
+
+
+h5{
+
+  text-align: center;
+  font-size: 65px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 964px;
+
+}
+
+h6{
+  text-align: center;
+  font-size: 65px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 2669px;
+}
+
+
+
+form{
+  border: 5px solid;
+width: 1364px;
+height: 3881px;
+}
+
+section {
+  font-size: 40px;
+  
+}
+section > div{
+  display: flex;
+
+
+
+}
+
+
+.cl1{
+  height: 27px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  right: -1%;
+
+}
+
+.cl2{
+ 
+  height: 27px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 2%;
+  right: -1%;
+}
+  
+
+.cl3{
+  height: 27px;
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  right: -1%;
+}
+
+#col{
+  display: flex;
+flex-direction: row;
+justify-content: start;
+position: relative;
+left: 17px;
+top: -7px;
+
+
+}
+
+
+ #col2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 378px;
+}
+
+
+
+
+ #col3{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+  bottom: 754px;
+ left: -56px;
+}
+
+
+#Atri1{
+  text-align: center;
+font-size: 51px;
+margin-top: -111px;
+position: relative;
+bottom: 547px;
+left: -474px;
+}
+
+#Atri2{
+  text-align: center;
+  font-size: 51px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 544px;
+}
+
+
+
+
+
+#Atri3{
+
+  text-align: center;
+font-size: 51px;
+margin-top: -111px;
+position: relative;
+bottom: 541px;
+right: -481px;
+}
+
+#a1{
+  display: flex;
+  text-align: start;
+  font-size: 30px;
+  flex-direction: row;
+ 
+  justify-content: start;
+  position: relative;
+  left: 38px;
+bottom: 583px;
+}
+  
+
+#a2{
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  bottom: 867px;
+  
+}
+  
+#a3{
+  display: flex;
+  text-align: end;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+  left: -68px;
+  bottom: 1150px;
+}
+
+
+
+
+#Hab1{
+  text-align: center;
+  font-size: 42px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 915px;
+  left: -461px;
+}
+
+
+#Hab2{
+  text-align: center;
+  font-size: 42px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 893px;
+
+
+
+}
+
+
+
+#Hab3{
+  text-align: center;
+  font-size: 42px;
+  margin-top: -111px;
+  position: relative;
+  bottom: 872px;
+right: -467px;
+}
+
+
+#h1{
+  display: flex;
+  text-align: start;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+  left: 32px;;
+bottom: 911px;
+  
+}
+
+
+#h2{
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  bottom: 1854px;
+   }
+
+
+   #h3{
+    display: flex;
+  text-align: end;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+  left: -59px;
+  bottom: 2794px;
+
+}
+
+#v1{
+  
+  text-align: start;
+  font-size: 50px;
+  
+  position: relative;
+  left: 13px;
+  bottom: 2813px;
+
+
+
+  }
+
+  #dis{
+    
+    font-size: 50px;
+position: relative;
+left: 25px;
+bottom: -85PX;
+
+  }
+  
+  #Ante{
+    text-align: start;
+    font-size: 50px;
+    
+    position: relative;
+    left: 157px;
+    bottom: 1PX;
+  }
+  
+  #virtudes{
+
+    text-align: end;
+    font-size: 50px;
+    position: relative;
+    left: 145px;
+    bottom: 659PX;
+  
+  }
+
+
+  #v2{
+    text-align: center;
+    font-size: 0px;
+    position: relative;
+    bottom: 3701px;
+    right: 4px;
+  
+  }
+  
+  
+  
+  #inp{
+    position: relative;
+    bottom: 35px;
+    left: 187px;
+    height: 49px;
+    width: 14px;
+    
+  }
+  
+  .inpv{
+    
+    display: flex;
+    width: 181px;
+    height: 17px;
+  
+   }
+
+   .inpv2{
+    display: flex;
+width: 182px;
+height: 17px;
+position: relative;
+left: 554px;
+top: 91px;
+
+
+   }
+
+
+   #inp2{
+
+    position: relative;
+    bottom: -54px;
+    left: 169px;
+    height: 49px;
+    width: 14px;
+  }
+  
+
+  
+
+   #v3{
+    text-align: end;
+    font-size: 50px;
+    position: relative;
+    bottom: 3730px;
+    left: -306px;
+  }
+  
+
+  #inp3{
+    
+    height: 49px;
+    width: 19px;
+  }
+
+
+  #inp31{
+    position: relative;
+    bottom: 513px;
+    left: 286px;
+    height: 49px;
+    width: 14px;
+
+
+  }
+  
+  #inp32{
+    height: 48px;
+    width: 17px;
+    position: relative;
+    bottom: 482px;
+    left: 299px;
+
+  }
+
+  #inp33{
+    
+    height: 49px;
+width: 19px;
+position: relative;
+bottom: 461px;
+left: 275px;
+    
+  }
+
+  #consiecia{
+    text-align: end;
+font-size: 25px;
+position: relative;
+bottom: 529px;
+left: 298px;
+  }
+
+ #auto{
+  text-align: end;
+font-size: 21px;
+position: relative;
+bottom: 498px;
+left: 315px;
+}
+ 
+
+  #coragem{
+    text-align: end;
+  font-size: 25px;
+  position: relative;
+  bottom: 476px;
+  left: 275px;
+}
+
+#qd {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 76px;
+  position: relative;
+  bottom: 1089px;
+  left: -413px
+}
+
+#qd1{
+  position: relative;
+bottom: 1089px;
+left: -402px;
+width: 521px;
+height: 938px;
+}
+
+.ht{
+  text-align: center;
+  font-size: 42px;
+ 
+}
+
+#ht{
+  font-size: 42px;
+position: relative;
+bottom: 2080px;
+left: 300px;
+}
+
+#ht1{
+  position: relative;
+bottom: 2005px;
+left: -101px;
+width: 43px;
+height: 37px;
+}
+
+#fv{
+  font-size: 42px;
+position: relative;
+bottom: 1974px;
+left: 283px;
+}
+
+#fv1{
+  position: relative;
+  bottom: 1915px;
+  left: -77px;
+  width: 43px;
+  height: 35px;
+}
+
+#ps{
+  font-size: 42px;
+position: relative;
+bottom: 1884px;
+left: 78px;
+  }
+
+  #ps2{
+    position: relative;
+    bottom: 1872px;
+    left: 76px;
+    width: 43px;
+    height: 35px;
+  
+    
+  }
+
+  #vitaliade{
+    font-size: 42px;
+    position: relative;
+    bottom: 2493px;
+    left: 479px;
+  
+  }
+
+  #vit{
+    display: flex;
+  text-align: end;
+   font-size: 40px;
+  flex-direction: row;
+   justify-content: end;
+  position: relative;
+  bottom: 2451px;
+  left: 479px;
+  }
+
+  #vt{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -35px;
+    right: -75px;
+  }
+
+  #vt1{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -36px;
+    right: -63px;
+  }
+  #vt2{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -39px;
+    right: -110px;
+  
+  }
+  #vt3{
+    height: 35px;
+    width:  43px;
+    position: relative;
+    bottom: -38px;
+    right: 0px;
+  }
+  #vt4{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -49px;
+    right: -70px;
+  }
+  #vt5{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -38px;
+    right: -94px;
+  
+  }
+  #vt6{
+    height: 35px;
+    width: 43px;
+    position: relative;
+    bottom: -40px;
+    right: -54px;
+  
+  }
+
+
+  #fra{
+    font-size: 42px;
+position: relative;
+bottom: 2779px;
+left: 95px;
+
+  }
+
+ #fr{
+  position: relative;
+bottom: 2773px;
+left: 90px;
+width: 443px;
+height: 282px;
+ }
+
+ .botoes{
+  bottom: 2793px;
+position: relative;
+left: 532px;
+
+ }

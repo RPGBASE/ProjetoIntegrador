@@ -51,6 +51,7 @@ header{
   width: 140px;
   height: 15px;
   text-align: center;
+  
 }
 
 .home a{
@@ -92,4 +93,36 @@ header{
 .criarP a{
   text-decoration: none;
   color: #f7c198;
+}
+.entrar:hover {
+  background: #94aebd;
+  color: #4f0a63;
+  box-shadow: 0px 1px 20px  #94aebd (159, 159, 159, 0.65);
+}
+.entrar a:hover{
+  color: #4f0a63;
+}
+.criarP:hover {
+  background: #94aebd;
+  color: #4f0a63;
+  box-shadow: 0px 1px 20px  #94aebd (159, 159, 159, 0.65);
+}
+.criarP a:hover{
+  color: #4f0a63;
+}
+.criar:hover {
+  background: #94aebd;
+  color: #4f0a63;
+  box-shadow: 0px 1px 20px  #94aebd (159, 159, 159, 0.65);
+}
+.criar a:hover{
+  color: #4f0a63;
+}
+.home:hover {
+  background: #94aebd;
+  color: #4f0a63;
+  box-shadow: 0px 1px 20px  #94aebd (159, 159, 159, 0.65);
+}
+.home a:hover{
+  color: #4f0a63;
 }

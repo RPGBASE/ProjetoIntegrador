@@ -1,12 +1,13 @@
 const { Router } = require('express');
 // O {Router} está desestruturado//
 
+const userRoutes = Router();
 
 const rpgController = require('../controllers/rpgController');
 
-const userRoutes = Router();
+
 
 userRoutes.get('/', rpgController.index);
-userRoutes.get('/:id', rpgController.show);
+userRoutes.post('/:idUser', rpgController.cadastro);
 
 module.exports = userRoutes;

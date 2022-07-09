@@ -1,5 +1,5 @@
 const { Router } = require('express');
-// O {Router} está desestruturado//
+
 
 const userRoutes = Router();
 

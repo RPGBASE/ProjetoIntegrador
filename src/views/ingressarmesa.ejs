@@ -11,15 +11,15 @@
 <body>
 
 <header>
-    <div class="titulo">
-        <h1>RPG Base</h1>
-    </div>
-    <div class="menu">
-        <div class="home">
-            <a href="/gerenciar.ejs">
+            <div class="titulo">
+               <h1>RPG Base</h1>
+           </div>
+           <div class="menu">
+           <div class="home">
+              <a href="/gerenciar.ejs">
                 Início
-            </a>
-        </div>
+              </a>
+           </div>
              <div class="criar">
                 <a href="/criacaomesa.ejs">
                     Criar Mesa
@@ -34,24 +34,21 @@
                 <a href="/selecaosistema.ejs">
                     Criar Personagem
                 </a>
-    </div>
-    </div>
+           </div>
+           </div>
 </header>
 
 <main>
-    <h2>Ingressar em Mesa</h2>
-    <form action="/ingressarmesa.ejs" method="post">
-    <div class="input-group">
-        <label for="nome">Insira o Código da Mesa:</label>
-        <input type="text" id="insira o codigo da mesa" name="insira o codigo da mesa">
-    </div>
-    <span>
-        <button type="submit">Entrar</button>
-      </span>
+                <h2>Ingressar em Mesa</h2>
+                <form action="/ingressarmesa.ejs" method="post">
+                 <div class="input-group">
+                      <label for="nome">Insira o Código da Mesa:</label>
+                      <input type="text" id="insira o codigo da mesa" name="insira o codigo da mesa">
+                  </div>
+                <span>
+                      <button type="submit">Entrar</button>
+                </span>
 </form>
-</main>
-
-
-    
+</main> 
 </body>
 </html>

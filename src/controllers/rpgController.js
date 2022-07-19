@@ -1,6 +1,10 @@
 const rpgController = {
     index: (request, response) => {
-        return response.render('index')
+        return response.redirect('index');
+    }
+    ,
+    home: (request, response) => {
+        return response. render('index');
     }
 
 }

@@ -5,12 +5,12 @@ body{
    
      font-family: MedievalSharp, sans-serif;
      font-weight:bolder;
-     background-image: url("./imagens/RPG.png");
+     background-image: url("../imagens/RPG.png");
      background-position: center;
      background-repeat: no-repeat;
      background-color: rgba(250, 248, 248, 0.63);
      background-blend-mode: color;
-     background-size: 800px 800px;
+     background-size: 100vh 100vh;
     height: 100vh;
     display: flex;
     flex-direction: column;

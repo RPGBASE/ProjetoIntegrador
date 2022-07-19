@@ -11,7 +11,8 @@ app.get("/home", function( req,res) {
     res.render("../views/index");
 } )
 
-
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use('/index', userRoutes);
 
@@ -19,4 +20,4 @@ app.listen(3333, () => {
     console.log('Minha aplicação esta voando ✈️');
 });
 
-module.exports = app;
+//module.exports = app;

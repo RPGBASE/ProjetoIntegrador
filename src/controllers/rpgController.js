@@ -1,6 +1,6 @@
 const rpgController = {
     index: (request, response) => {
-        response.render('index')
+        return response.render('index')
     }
 
 }

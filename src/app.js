@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use('/', userRoutes);
 
 app.listen(3333, () => {
-    console.log('Minha aplicação esta voando ✈️');
+    console.log('Que comece a aventura!! 🧙‍♂️⚔🪓🎲🤺');
 });
 
 module.exports = app;

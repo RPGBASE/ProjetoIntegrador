@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const path = require('path');
 const session = require('express-session');
-const userRoutes = require('./routes/user.routes');
+const loginRouter = require('./routes/login.router');
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.get("/", function( req,res) {
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '..', 'public')));
-app.use('/', userRoutes);
+app.use('/', loginRouter);
 
 app.listen(3333, () => {
     console.log('Minha aplicação esta voando ✈️');

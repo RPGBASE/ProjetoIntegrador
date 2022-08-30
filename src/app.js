@@ -3,9 +3,8 @@ const express = require('express');
 const path = require('path');
 const session = require('express-session');
 const loginRouter = require('./routes/login.router');
-const cadastroController = require('./controllers/cadastroController');
 const cadastroRouter = require('./routes/cadastro.router');
-const loginController = require('./controllers/loginController')
+
 
 const app = express();
 
@@ -14,7 +13,12 @@ app.set('view engine', 'ejs');
 
 app.get("/", function( req,res) {
     res.render("../views/index");
-} )
+} ),
+
+app.get("/", function( req,res) {
+    res.render("../views/cadastro");
+} ),
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

@@ -4,7 +4,7 @@ const cadastroController = require('../controllers/cadastroController');
 
 
 
-cadastroRouter.get('/', cadastroController.index);
-cadastroRouter.get('/:idUser', cadastroController.home);
+
+cadastroRouter.get('/cadastro', cadastroController.show);
 
 module.exports = cadastroRouter;

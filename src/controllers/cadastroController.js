@@ -1,6 +1,6 @@
 const cadastroController = {
-    index: (request, response) => {
-        return response.redirect('index');
+    show: (request, response) => {
+        return response.redirect('show');
     }
     ,
     home: (request, response) => {

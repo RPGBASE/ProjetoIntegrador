@@ -1,10 +1,10 @@
 const loginController = {
     index: (request, response) => {
-        return response.redirect('index');
+        return response.redirect('cadastro');
     }
     ,
     home: (request, response) => {
-        return response. render('index');
+        return response. render('cadastro');
     }
 
 }

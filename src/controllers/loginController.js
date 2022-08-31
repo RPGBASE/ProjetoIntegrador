@@ -3,7 +3,7 @@ const loginController = {
         return response.redirect('cadastro');
     }
     ,
-    home: (request, response) => {
+    cadastro: (request, response) => {
         return response. render('cadastro');
     }
 

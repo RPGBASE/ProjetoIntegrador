@@ -5,6 +5,6 @@ const loginController = require('../controllers/loginController');
 
 
 loginRouter.get('/', loginController.index);
-loginRouter.get('/:idUser', loginController.home);
+loginRouter.get('/cadastro', loginController.cadastro);
 
 module.exports = loginRouter;

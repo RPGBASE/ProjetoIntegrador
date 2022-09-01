@@ -1,10 +1,10 @@
 const mesaMestreController = {
     index: (request, response) => {
-        return response.redirect('dadosmesamestre');
+        return response.redirect('dadosmesa(mestre)');
     }
     ,
     index: (request, response) => {
-        return response. render('dadosmesamestre');
+        return response. render('dadosmesa(mestre)');
     }
 
 }

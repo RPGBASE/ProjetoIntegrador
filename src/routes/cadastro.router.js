@@ -5,6 +5,6 @@ const cadastroController = require('../controllers/cadastroController');
 
 
 
-cadastroRouter.get('/cadastro', cadastroController.show);
+cadastroRouter.get('/cadastro', cadastroController.create);
 
 module.exports = cadastroRouter;
